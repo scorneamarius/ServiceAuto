@@ -1,0 +1,153 @@
+div#leftMenu {
+    top: 0;
+    display: block;
+    width: 280px;
+    background: #191919;
+    margin: 0;
+    position: fixed;
+    left: 0px;
+    height: 100%;
+}
+#optionAdmin1 input{
+    width: 100%;
+    border: 1px solid gray;
+    height: 37px;
+    font-family: cursive;
+    padding: 5px;
+    margin: 10px 0px;
+    outline: none;
+    font-weight: bold;
+    border-bottom: 5px solid #05c505;
+}
+div#leftMenu ul{
+    margin: 0px;
+    padding: 0px;
+    top: 100px;
+    position: relative;
+}
+#rigthArea {
+  position: fixed;
+  width: calc(100% - 380px);
+  left: 290px;
+  overflow-y: auto;
+  margin: 20px 40px;
+  height: 100%;
+}
+#optionAdmin1{
+  display: block;
+}
+#optionAdmin2,#optionAdmin3{
+  display: none;
+}
+#logoAdmin{
+  height: 185px;
+  width: 185px;
+  text-align: center;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  left: 35px;
+  position: relative;
+  background: url(../images/admin.png);
+  top: 50px;
+}
+div#leftMenu  a:hover  {
+  color:greenyellow;
+}
+div#leftMenu  a {
+    color: #fefffe;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+div#leftMenu li {
+  border-bottom: 1px solid white;
+  height: 30px;
+  margin: 5px;
+  padding-left: 20px;
+  line-height: 30px;
+  list-style-type: none;
+  font-family: serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+div#leftMenu li i{
+  margin-right: 10px;
+}
+.dell i:hover{
+    color:red;
+    cursor: pointer;
+    font-weight: bold;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3b3b3b;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #btnDell{
+    background: transparent;
+    border: 0px;
+    outline: none;
+}
+  
+  .wrapper {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 800px;
+  }
+  
+  .table {
+    margin: 0 0 40px 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: table;
+  }
+  @media screen and (max-width: 580px) {
+    .table {
+      display: block;
+    }
+  }
+  
+  .row {
+    display: table-row;
+    background: #f6f6f6;
+  }
+  .row:nth-of-type(odd) {
+    background: #e9e9e9;
+  }
+  .row.header {
+    font-weight: 900;
+    color: #ffffff;
+    background: #ea6153;
+  }
+  .row.green {
+    background: #27ae60;
+  }
+  .row.blue {
+    background: #2980b9;
+  }
+  @media screen and (max-width: 580px) {
+    .row {
+      padding: 8px 0;
+      display: block;
+    }
+  }
+  
+  .cell {
+    padding: 6px 12px;
+    display: table-cell;
+  }
+  @media screen and (max-width: 580px) {
+    .cell {
+      padding: 2px 12px;
+      display: block;
+    }
+  }
+
+  
+.dell{
+    text-align: center;
+}
